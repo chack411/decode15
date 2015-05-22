@@ -1,0 +1,9 @@
+{
+  "name": "decode15",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "3.3.4",
+    "bootstrap-touch-carousel": "0.8.0",
+    "jQuery": "2.1.4"
+  }
+}

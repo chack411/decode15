@@ -1,0 +1,11 @@
+{
+  "name": "decode15",
+  "version": "1.0.0",
+  "description": "de:code 2015 Demo for ASP.NET 5",
+  "repository": {
+  },
+  "devDependencies": {
+    "gulp": "3.8.11",
+    "rimraf": "2.2.8"
+  }
+}
