@@ -36,6 +36,7 @@
   ],
   "scripts": {
     "postrestore": [ "npm install", "bower install" ],
-    "prepare": [ "gulp copy", "gulp css" ]
+    "prepare": [ "gulp copy", "gulp style" ],
+    "postpublish": [ "gulp none" ]
   }
 }
