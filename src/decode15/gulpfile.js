@@ -1,4 +1,4 @@
-/// <binding BeforeBuild='copy' Clean='clean' />
+/// <binding BeforeBuild='copy, css' Clean='clean' />
 var gulp = require("gulp"),
   rimraf = require("rimraf"),
   fs = require("fs");
@@ -29,7 +29,7 @@ gulp.task("copy", ["clean"], function () {
 });
 
 gulp.task("css", function () {
-    gulp.src(paths.bootswatch + "*.css").pipe(gulp.dest(paths.lib + "bootstrap/css"));
+    gulp.src(paths.bootswatch + "superhero/*.css").pipe(gulp.dest(paths.lib + "bootstrap/css"));
 });
 
 gulp.task("none", function () {

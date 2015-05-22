@@ -9,7 +9,7 @@
     padding-left: 15px;
     padding-right: 15px;
     font-size: 1.2em;
-    font-family: Meiryo;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
 /* Set widths on the form inputs since otherwise they're 100% wide */
@@ -24,7 +24,7 @@ textarea {
 }
 
 h1 {
-    font-family: Meiryo;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
 #message {
