@@ -19,7 +19,7 @@ gulp.task("copy", ["clean"], function () {
   var bower = {
     "bootstrap": "bootstrap/dist/**/*.{js,map,css,ttf,svg,woff,eot}",
     "bootstrap-touch-carousel": "bootstrap-touch-carousel/dist/**/*.{js,css}",
-    "jQuery": "jQuery/dist/*.{js,map}"
+    "jquery": "jquery/dist/*.{js,map}"
   }
 
   for (var destinationDir in bower) {
